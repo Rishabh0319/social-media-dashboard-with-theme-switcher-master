@@ -42,12 +42,12 @@ html
 
 body
 {
-    /* background-color: #1D2029; */
+    background-color: var(--VeryDarkBlueBG);
 }
 
 .container {
-    border: 1px solid red;
-    width: 80%;
+    /* border: 1px solid red; */
+    width: 75%;
     margin: auto;
     padding: 0px 10px;
 }
@@ -72,9 +72,12 @@ body
 }
 .upper-header-left h1{
    font-size: 1.5rem;
+   color: var(--WhiteText);
 }
 .upper-header-left p{
-   font-size: 0.8rem;
+   font-size: 0.75rem;
+   color: var(--DesaturatedBlueText);
+   font-weight: 700;
 }
 
 .upper-header .upper-header-right
@@ -86,6 +89,7 @@ body
 {
     font-size: 0.8rem;
     display: flex;
+    color: var(--WhiteText);
 }
 
 .upper-section .upper-box-container
@@ -94,11 +98,12 @@ body
    display: flex;
    justify-content: space-between;
    padding: 20px 20px;
+   flex-wrap: wrap;
 }
 
 .upper-box-container .upper-boxex
 {
-   border: 1px solid limegreen;    
+   /* border: 1px solid limegreen;     */
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -106,7 +111,7 @@ body
    min-width: 200px;
    border-radius: 5px; 
    position: relative;
-   /* background-color: #252B43; */
+   background-color: var(--DarkDesaturatedBlueCardBG);
    cursor: pointer;
 }
 
@@ -184,9 +189,22 @@ body
     padding-bottom: 20px;
 }
 
+.upper-boxex .upper-box-info p{
+    color: var(--DesaturatedBlueText);
+    font-weight: 700;
+}
+
+.mid-box-info h1{
+   color: var(--WhiteText);
+}
+
+.mid-box-info p{
+    color: var(--DarkGrayishBlueText)
+}
+
 .lower-box-container .lower-boxex
 {
-    border: 1px solid limegreen;
+    /* border: 1px solid limegreen; */
 }
 
 
@@ -207,6 +225,7 @@ body
 .lower-header h1
 {
     font-size: 1.5rem;
+    color: var(--WhiteText);
 }
 
 .lower-section .lower-box-container
@@ -221,7 +240,7 @@ body
 
 .lower-box-container .lower-boxex
 {
-   border: 1px solid limegreen;    
+   /* border: 1px solid limegreen;     */
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -231,6 +250,7 @@ body
    position: relative;
    margin-bottom: 20px;
    cursor: pointer;
+   background-color: var(--DarkDesaturatedBlueCardBG);
 }
 
 .lower-boxex .upper-info
@@ -245,6 +265,8 @@ body
 {
    font-size: 0.75rem;
    font-weight: 500;
+   color: var(--DesaturatedBlueText);
+   font-weight: 800;
 }
 
 .lower-boxex .upper-info img
@@ -262,7 +284,7 @@ body
 
 .lower-boxex .lowerinfo h2
 {
-    
+    color: var(--WhiteText);
 }
 
 .lower-boxex .lowerinfo .value-in-percent
