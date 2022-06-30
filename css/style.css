@@ -83,6 +83,9 @@ body
 .upper-header .upper-header-right
 {
     /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .upper-header-right p
@@ -90,6 +93,7 @@ body
     font-size: 0.8rem;
     display: flex;
     color: var(--WhiteText);
+    margin-right: 10px;
 }
 
 .upper-section .upper-box-container
@@ -113,6 +117,11 @@ body
    position: relative;
    background-color: var(--DarkDesaturatedBlueCardBG);
    cursor: pointer;
+}
+
+.upper-box-container .upper-boxex:hover
+{
+    background-color: #333A56;
 }
 
 .upper-box-container .upper-boxex .gradient-border
@@ -251,6 +260,11 @@ body
    margin-bottom: 20px;
    cursor: pointer;
    background-color: var(--DarkDesaturatedBlueCardBG);
+}
+
+.lower-boxex:hover
+{
+    background-color: #333A56;
 }
 
 .lower-boxex .upper-info
