@@ -20,6 +20,7 @@ let lowercardText = document.querySelectorAll('.lower-boxex .lowerinfo h2');
 let upperHeaderHeading = document.querySelector('.upper-header-left h1');
 let upperHeaderParagraph = document.querySelector('.upper-header-left p');
 let lowerHeading = document.querySelector('.lower-header h1');
+let upperHeaderRightText = document.querySelector('.upper-header-right p');
 
 /* ******************* Toggle Switch ******************* */
 
@@ -66,6 +67,10 @@ toggle.addEventListener('change', (e) => {
         lowercardTextColor.forEach((textColor) => {
             textColor.style.color = DarkGrayishBlue_Text;
         });
+
+        // upper header Right Text 
+
+        upperHeaderRightText.style.color = DarkGrayishBlue_Text;
     }
     else {
         container.style.backgroundColor = '';
@@ -93,6 +98,8 @@ toggle.addEventListener('change', (e) => {
         lowercardTextColor.forEach((textColor) => {
             textColor.style.color = '';
         });
+
+        upperHeaderRightText.style.color = '';
     }
 
 });

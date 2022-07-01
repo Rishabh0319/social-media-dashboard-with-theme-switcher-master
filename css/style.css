@@ -117,6 +117,7 @@ body
    position: relative;
    background-color: var(--DarkDesaturatedBlueCardBG);
    cursor: pointer;
+   margin-top: 20px;
 }
 
 .upper-box-container .upper-boxex:hover
